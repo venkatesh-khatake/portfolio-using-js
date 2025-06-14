@@ -467,7 +467,7 @@ background-color: crimson;
 
 
 .contact-container{
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
