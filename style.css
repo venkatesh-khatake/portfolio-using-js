@@ -428,14 +428,14 @@ background-color: crimson;
   align-items: center;
 }
 .project-container{
+  margin-top: 25px;
     padding: 25px 0;
-
   width: 80%;
   height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
   flex-wrap: wrap;
 }
 .project-box{
@@ -463,6 +463,26 @@ background-color: crimson;
 .project-box h6{
   font-size: 13px;
   padding-left: 10px;
+}
+.project-box button {
+  margin-top: 10px;
+  padding: 8px 35px;
+  margin-left: 10px;
+  color: white;
+  background-color: crimson;
+  border-radius: 25px;
+  border: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.project-box button:hover{
+  background-color: tomato;
+}
+.project-box button a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+
 }
 /* =============================== */
 
