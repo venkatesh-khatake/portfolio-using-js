@@ -102,6 +102,7 @@ nav ul li a {
   padding: 60px 20px;
   margin-top: 20px;
 }
+
 .main-left {
   width: 50%;
   height: auto;
@@ -122,6 +123,9 @@ nav ul li a {
 }
 .main-text h4 {
   font-size: 2em;
+}
+.main-text i{
+  font-size: 1.5em;
 }
 
 .main-right {
@@ -495,6 +499,7 @@ background-color: crimson;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  padding: 20px;
 }
 .contact-left{
   
