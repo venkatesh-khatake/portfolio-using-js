@@ -4,6 +4,8 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   color: white;
+    scroll-behavior: smooth;
+
 }
 body {
   width: 100vw;
