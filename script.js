@@ -47,6 +47,11 @@
                 name : 'Age Calculator',
                 url : 'https://venkatesh-khatake.github.io/Age-Calculator/',
                 image : 'ageCalc.png',
+            },
+               {
+                name : 'Desert Website',
+                url : 'https://venkatesh-khatake.github.io/Desert_Website/',
+                image : 'desert.png',
             }
         ];
 
