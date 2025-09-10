@@ -61,7 +61,7 @@
         projects.map((project) =>{
            return  `
             
-             <div class="project-box">
+             <div class="project-box" data-aos="fade-up" data-aos-delay="200">
                 <img src= ${project.image} alt="">
                 <h5 class="name">${project.name}</h5>
                 <button><a href = ${project.url}>visit</a></button>

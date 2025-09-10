@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -16,6 +17,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   </head>
 
   <body>
@@ -36,7 +39,7 @@
     </nav>
 
     <div class="main" id="home">
-      <div class="main-left">
+      <div class="main-left" data-aos="fade-right">
         <div class="main-text">
           <h2>Hello!👋</h2>
           <h3>I'm Venkatesh</h3>
@@ -49,7 +52,7 @@
           </div>
         </div>
       </div>
-      <div class="main-right">
+      <div class="main-right" data-aos="fade-left">
         <div class="img-box">
           <img src="cde.jpg" alt="" />
         </div>
@@ -59,10 +62,10 @@
     <div class="about-section" id="about">
       <h5>About Me</h5>
       <div class="about-content">
-        <div class="about-left">
+        <div class="about-left" data-aos="zoom-in">
           <img src="who-removebg-preview.png" alt="" />
         </div>
-        <div class="about-right">
+        <div class="about-right" data-aos="fade-up">
           <p class="info">
             Hi👋, I'm Venkatesh — a frontend developer skilled in HTML, CSS,
             JavaScript, and React. I enjoy building responsive, user-friendly
@@ -102,31 +105,31 @@
       <h5>My Skills</h5>
 
       <div class="skills-container">
-        <div class="skill-box">
+        <div class="skill-box" data-aos="flip-left">
           <img src="html.png" alt="">
           <h6>HTML</h6>
         </div>
-         <div class="skill-box">
+         <div class="skill-box" data-aos="flip-left">
           <img src="css.png" alt="">
           <h6>CSS</h6>
         </div>
-         <div class="skill-box">
+         <div class="skill-box" data-aos="flip-left">
           <img src="Javascript.png" alt="">
           <h6>JavaScript</h6>
         </div>
-         <div class="skill-box">
+         <div class="skill-box" data-aos="flip-left">
           <img src="react.png" alt="">
           <h6>React JS</h6>
         </div>
-         <div class="skill-box">
+         <div class="skill-box" data-aos="flip-left">
           <img src="bootstrap.png" alt="">
           <h6>Bootstrap</h6>
         </div>
-         <div class="skill-box">
+         <div class="skill-box" data-aos="flip-left">
           <img src="java.png" alt="">
           <h6>Core Java</h6>
         </div>
-         <div class="skill-box">
+         <div class="skill-box" data-aos="flip-left">
           <img src="figma.png" alt="">
           <h6>Basic Figma</h6>
         </div>
@@ -170,7 +173,7 @@
             </div>
     </div>
 
-    <div class="contact-container" id="contact">
+    <div class="contact-container" id="contact" data-aos="fade-up" >
       <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
         <div class="contact-left-title">
           <h2>Get in touch</h2>
@@ -193,5 +196,14 @@
 
     </footer>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,   // Animation duration (ms)
+    offset: 100,      // Distance from the top before triggering
+    once: true        // Animate only once
+  });
+</script>
+
   </body>
 </html>
