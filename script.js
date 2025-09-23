@@ -36,7 +36,7 @@
                 image : 'myntra.png',
             },{
                 name : 'Todo App',
-                url : 'https://venkatesh-khatake.github.io/Todo_List/',
+                url : 'https://venkatesh-khatake.github.io/todo-app/',
                 image : 'todo.png',
             },{
                 name : 'Weather App',
