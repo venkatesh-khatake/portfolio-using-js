@@ -284,7 +284,7 @@ nav ul li a {
   /* background-color: red; */
 }
 .about-left img {
-  width: 500px;
+  width: 100%;
   height: auto;
 }
 .about-right {
@@ -530,7 +530,8 @@ background-color: crimson;
   margin-bottom: 20px;
 }
 .contact-inputs{
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: 50px;
   border: none;
   outline: none;
@@ -560,7 +561,7 @@ background-color: crimson;
   background:linear-gradient(270deg, #ff994f, #fa6d86);
   cursor: pointer;
 }
-@media(max-width:500px){
+@media(max-width:550px){
   .contact-left{
     padding: 10px;
   }
